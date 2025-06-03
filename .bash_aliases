@@ -210,5 +210,4 @@ function psg()
 # Nginx
 alias sites='cd /etc/nginx/sites-available'
 
-alias updatealiases='sudo wget -P /home/azrael/ https://github.com/lphaweb/debian-aliases/raw/refs/heads/main/.bash_aliases && 
-sudo wget -P /root/ https://github.com/lphaweb/debian-aliases/raw/refs/heads/main/.bash_aliases'
+alias updatealiases='sudo wget -N -P /home/azrael/ https://github.com/lphaweb/debian-aliases/raw/refs/heads/main/.bash_aliases && sudo wget -N -P /root/ https://github.com/lphaweb/debian-aliases/raw/refs/heads/main/.bash_aliases'
