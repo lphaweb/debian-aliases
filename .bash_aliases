@@ -209,4 +209,3 @@ function psg()
 
 # Nginx
 alias sites='cd /etc/nginx/sites-available'
-alias www='cd /home/www'
