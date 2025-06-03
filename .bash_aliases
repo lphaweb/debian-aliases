@@ -179,6 +179,9 @@ function logf()
 ## 
 ## System
 ##
+#Restart systemctl application
+alias restart='sudo systemctl restart'
+
 #Show open ports
 alias ports='netstat -tulanp'
 # update on one command
