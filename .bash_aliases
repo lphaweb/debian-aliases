@@ -30,7 +30,7 @@ alias now='date +"%T"'
 alias nowdate='date +"%d-%m-%Y"'
 
 # shorcut to connect as root
-alias root='su - root'
+alias root='sudo su'
 
 # Extract a file according to its type
 function extract {
@@ -200,7 +200,7 @@ alias pp="ps axuf | pager"
 alias df='df -H'
 alias du='du -ch'
 # top is atop, just like vi is vim
-alias top='atop'
+alias top='sudo atop'
 # find a running process
 function psg()
 {
@@ -209,3 +209,6 @@ function psg()
 
 # Nginx
 alias sites='cd /etc/nginx/sites-available'
+
+alias updatealiases='sudo wget -P /home/azrael/ https://github.com/lphaweb/debian-aliases/raw/refs/heads/main/.bash_aliases && 
+sudo wget -P /root/ https://github.com/lphaweb/debian-aliases/raw/refs/heads/main/.bash_aliases'
